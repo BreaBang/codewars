@@ -8,3 +8,4 @@ Examples (Input ==> Output):
 function stringToArray(string){
     const words = string.split(' '); //without the space between the '' it splits it into letters. 
     return words
+}
