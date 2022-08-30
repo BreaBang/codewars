@@ -6,5 +6,9 @@ Examples (input -> output)
 
 function repeatStr (n, s) {
     return s.repeat(n);
+<<<<<<< HEAD
   }
   
+=======
+  }
+>>>>>>> c39e611f3d3cfb7f360257aa403249ce90cb2f68
