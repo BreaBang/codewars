@@ -11,3 +11,4 @@ function solution(str, ending){
       return false
     }
    }
+   
