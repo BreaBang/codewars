@@ -10,9 +10,4 @@ function solution(str, ending){
     }else {
       return false
     }
-<<<<<<< HEAD
-   }
-   
-=======
-   }
->>>>>>> 3a2e59fa93b597b1dfd6f62b50285d7d8d0a47ad
+}
