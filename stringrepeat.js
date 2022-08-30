@@ -7,3 +7,4 @@ Examples (input -> output)
 function repeatStr (n, s) {
     return s.repeat(n);
   }
+  
