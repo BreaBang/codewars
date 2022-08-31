@@ -25,4 +25,4 @@ function modifyMultiply (str,loc,num) {
     }
     return strres
   } 
-  //update
+  
