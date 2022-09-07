@@ -9,3 +9,18 @@ Output: 0
 
 Input: [-2.398]
 Output: -2.398 */
+
+// Sum Numbers
+function sum (numbers) {
+    if (numbers === [] ){
+      return 0
+    } else {
+  const initialValue = 0;
+  const  sumStr = numbers.reduce(
+  (previousValue, currentValue) => previousValue + currentValue,
+  initialValue)
+    return sumStr
+    }
+    
+    
+};
