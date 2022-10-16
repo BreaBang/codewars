@@ -1,0 +1,16 @@
+
+//Create a combat function that takes the player's current health and the amount of damage recieved, and returns the player's new health. Health can't be less than 0.
+
+function combat(health, damage) {
+  //P health, damage
+  //R the player's new health after damage is deducted
+  //E If health === 5 && damage === 3 return 2
+  //E If health ===2 && damage ===3 return 0
+  //P health minus damage is equal to new health. If the damage is greater than health, return 0.
+  if (damage >= health){
+    return 0
+  } else{
+    return health - damage
+  }
+}
+console.log(combat(3,5))
