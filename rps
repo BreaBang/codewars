@@ -1,0 +1,35 @@
+//Rock Paper Scissors
+
+const rps = (p1, p2) => {
+  // Parameters - player 1's choice and player 2's choice
+  // Return who won
+  // Examples:
+    // P1 = scissors P2 = rock -> return = P2 wins.
+    // P1 = paper P2 = rock -> return = P1 wins
+    // P1 = rock P2 = scissors -> return P1 wins
+  if (p1 === 'rock'){
+    if (p2 === 'scissors'){
+      return "Player 1 won!"
+    } else if (p2 === 'paper') {
+      return "Player 2 won!"
+    }else if (p2 === 'rock'){
+      return "Draw!"
+    }
+  } else if (p1 === 'scissors'){
+    if (p2 === 'scissors'){
+      return "Draw!"
+    } else if (p2 === 'paper') {
+      return "Player 1 won!"
+    }else if (p2 === 'rock'){
+      return "Player 2 won!"
+    }
+  } else if (p1 === 'paper'){
+    if (p2 === 'scissors'){
+      return "Player 2 won!"
+    } else if (p2 === 'paper') {
+      return "Draw!"
+    }else if (p2 === 'rock'){
+      return "Player 1 won!"
+    }
+  }
+};
